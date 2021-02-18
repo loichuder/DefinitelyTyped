@@ -45,7 +45,7 @@ declare class Complex {
     static EPSILON: number;
 
     constructor(x: number, y: number);
-    constructor(x: Complex);
+    constructor(x: Complex | string);
 
     // the real part of this complex number
     re: number;

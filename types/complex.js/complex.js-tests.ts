@@ -11,6 +11,7 @@ Complex.NAN;
 
 new Complex(1, 0);
 new Complex(Complex.I);
+new Complex("99.3+8i");
 new Complex(1, 0).abs();
 new Complex(1, 0).acos();
 new Complex(1, 0).acot();
